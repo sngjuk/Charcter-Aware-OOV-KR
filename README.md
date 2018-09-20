@@ -15,7 +15,7 @@
   <b> Output </b> - 해당 단어에대한 Vector (stdout fastText와 동일) <br>
 
 <b> --OOV sim test Usage: </b><br>
-``` python 2ph_oov_test.py ./saved_model/ ./data/NN-numalp-space-ep200em200min24.vec ```<br>
+``` python ph_oov_test.py ./saved_model/ ./data/NN-numalp-space-ep200em200min24.vec ```<br>
 ** Similarity test에서는 oov추론시마다 모델을 GPU에 새로 load하기 때문에 실행이 오래걸리지만 실제사용시에는 cat queries.txt | python --- 과 같이 pipe를 이용해 여러 oov 를 한번에 전달하고 결과를 한번에 받을 수 있음. <br>
 
 <img src="http://pds21.egloos.com/pds/201809/20/00/c0134200_5ba383ed5f18f.png"><br>
