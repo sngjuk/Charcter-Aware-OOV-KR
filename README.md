@@ -27,8 +27,8 @@ Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabu
 <b> 관찰1 </b><br>
 1. 어렵지 않은 단어에 대해서는 나쁘지 않은 추론을 하는 것으로 보이나 수박아이스크림과 같이 중의적인 의미가 많은예에 대해 낮은 성능을 보입니다.
 2. 학습을 오래진행하여 loss를 낮출수록 OOV의 의미를 추론하는 성능이 떨어짐.
-<br>** 전기자동차 == Known words
-<br>** 모든벡터들이 l2 norm 되어있음-> cosine sim 과 dot product 값 같음.
+<br>
+* 전기자동차 == Known words
 
 <b> 향후과제 </b><br>
 1. 다양한 parameter로 학습과정 실험해볼 필요있고 음소 아닌 음절단위로 학습해볼 의미 있을것으로 예상.
