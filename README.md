@@ -1,4 +1,4 @@
-Character-Aware-Language model을 이용하여 한국어에서 자소단위로 OOV의 Vector를 학습하는 스크립트. <a href="https://github.com/mkroutikov/tf-lstm-char-cnn"> mkroutikov </a> model에서 많은 부분을 가져옴.
+Character-Aware-Language model을 이용하여 한국어에서 자소단위로 OOV의 Vector를 학습하는 스크립트.<br> <a href="https://github.com/mkroutikov/tf-lstm-char-cnn"> mkroutikov </a> model에서 많은 부분을 가져옴.
 
 <b> --Train Usage : </b>
  
