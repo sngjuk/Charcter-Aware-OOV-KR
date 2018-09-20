@@ -13,8 +13,9 @@ Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabu
 ```python ph_train.py --inference_mode --model_save_path=./save_dir/ --input_vec=input.vec``` 
 <br> [Inference 모드에서 input.vec은 사용되지 않지만 코드 구조상 필요.]
 
-  <b> Input </b> - OOV 단어 (stdin fastText와 동일)<br>
-  <b> Output </b> - 해당 단어에대한 Vector (stdout fastText와 동일) <br>
+  <b> Input </b> - OOV 단어 <br>
+  <b> Output </b> - 해당 단어에대한 Vector<br>
+  *fastText와 동일 format stdin, stdout <br>
 
 <b> --OOV sim test Usage: </b><br>
 ``` python ph_oov_test.py ./saved_model/ ./data/NN-numalp-space-ep200em200min24.vec ```<br>
