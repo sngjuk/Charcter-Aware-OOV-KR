@@ -11,7 +11,7 @@ Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabu
 
 <b> --Inference Usage : </b> <br>
 ```python ph_train.py --inference_mode --model_save_path=./save_dir/ --input_vec=input.vec``` 
-<br> [Inference 모드에서 input.vec은 사용되지 않지만 코드 구조상 필요.]
+<br> Inference 모드는 input.vec 사용하지 않지만 구조상 입력.
 
   <b> Input </b> - OOV 단어 <br>
   <b> Output </b> - 해당 단어에대한 Vector<br>
