@@ -1,0 +1,1 @@
+Namuwiki Embedding vector file.
