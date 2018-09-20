@@ -1,3 +1,5 @@
+Character-Aware-Language model을 이용하여 한국어에서 자소단위로 OOV의 Vector를 학습하는 스크립트. model에서 많은 부분을 가져온 repo <a href="https://github.com/mkroutikov/tf-lstm-char-cnn> mkroutikov </a>
+
 <b> --Train Usage : </b>
  
 ```python ph_train.py --input_vec=input.vec --model_save_path=./save_dir/```
