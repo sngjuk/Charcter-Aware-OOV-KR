@@ -15,7 +15,7 @@ Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabu
 
   <b> Input </b> - OOV 단어 <br>
   <b> Output </b> - 해당 단어에대한 Vector<br>
-  *fastText와 동일 format stdin, stdout <br>
+  *fastText와 동일 format: stdin, stdout <br>
 
 <b> --OOV sim test Usage: </b><br>
 ``` python ph_oov_test.py ./saved_model/ ./data/NN-numalp-space-ep200em200min24.vec ```<br>
