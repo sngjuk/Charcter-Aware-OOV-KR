@@ -4,7 +4,7 @@ Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabu
  
 ```python ph_train.py --input_vec=input.vec --model_save_path=./save_dir/```
 
-<b> Requirements </b> - !!실행전 export LANG=ko_KR.utf8 환경변수 설정필요!!, hgtk (pip install hgtk) 자소분리, tensorflow >= 1.0<br>
+<b> Requirements </b> - export LANG=ko_KR.utf8 환경변수 설정, hgtk (pip install hgtk) 자소분리, tensorflow >= 1.0<br>
   <b>Input</b> - input_vec.vec (gensim format)<br>
   <b>Output</b> - Trained Model  <br><t>       [checkpoint, model.ckpt-xxxx.data-00000-of-00001, model.ckpt-xxxx.index, model.ckpt-xxxx.meta]<br>
 
