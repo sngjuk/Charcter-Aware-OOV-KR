@@ -24,16 +24,17 @@ Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabu
 <img src="http://pds21.egloos.com/pds/201809/20/00/c0134200_5ba383ed5f18f.png"><br>
 <img src="http://pds27.egloos.com/pds/201712/28/00/c0134200_5a447d9ddf353.png">
 
-<b> 관찰1 </b><br>
-1. 어렵지 않은 단어에 대해서는 나쁘지 않은 추론을 하는 것으로 보이나 수박아이스크림과 같이 중의적인 의미가 많은예에 대해 낮은 성능을 보입니다.
-2. 학습을 오래진행하여 loss를 낮출수록 OOV의 의미를 추론하는 성능이 떨어짐.
+<b> 결과/분석 </b><br>
+1. 어렵지 않은 단어에 대해서는 나쁘지 않은 추론을 하는 것으로 보이나 수박아이스크림(수박/아이/스크림, 수박/아이스/크림)과 같이 중의적인 의미의 단어에 대해 낮은 성능 보임.
+2. loss 낮을수록 OOV의 의미를 추론하는 성능저하.
+3. 현재는 자소 구성중심으로 벡터를 만듦. Highway network 추가하는것으로 의미에 비중을 둔 추론을 할 수 있을것으로 예상.
 <br>
-* 전기자동차 == Known words
-
+*** 전기자동차 == Known word
+<br>
 <b> 향후과제 </b><br>
-1. 다양한 parameter로 학습과정 실험해볼 필요있고 음소 아닌 음절단위로 학습해볼 의미 있을것으로 예상.
+1. 다양한 parameter로 학습과정 실험해볼 필요있고 음소 아닌 음절단위로 학습해보는것 의미 있을것으로 예상.
 2. 480MB의 나무위키 데이터가 아닌 다른 데이터로 학습해볼 의미 있을것으로 예상,
-3. Test 더 필요..
+3. Test 더 필요.
 
 <b> Docker Image </b><br>
 <br> <a href="https://hub.docker.com/r/sngjuk/sukim_ph2/"> Character CNN docker image </a>
