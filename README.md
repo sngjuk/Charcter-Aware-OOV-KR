@@ -1,4 +1,4 @@
-Character-Aware-Language model을 이용한 한국어 자소단위 OOV Vector 학습/추론<br> <a href="https://github.com/mkroutikov/tf-lstm-char-cnn"> mkroutikov </a> model에서 많은 부분을 가져옴.
+Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabulary Vector 학습/추론<br> <a href="https://github.com/mkroutikov/tf-lstm-char-cnn"> mkroutikov </a> model에서 많은 부분을 가져옴.
 
 <b> --Train Usage : </b>
  
