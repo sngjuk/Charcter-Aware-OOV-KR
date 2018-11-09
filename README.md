@@ -28,12 +28,13 @@ Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabu
 1. 어렵지 않은 단어에 대해서는 나쁘지 않은 추론을 하는 것으로 보이나 수박아이스크림(수박/아이/스크림, 수박/아이스/크림)과 같이 중의적인 의미의 단어에 대해 낮은 성능 보임.
 2. loss 낮을수록 OOV의 의미를 추론하는 성능저하.
 3. 현재는 자소 구성중심으로 벡터를 만듦. Highway network 추가하는것으로 의미에 비중을 둔 추론을 할 수 있을것.
+4. 현재까지는 본 모델보다 FastText 추론이 robust한 결과를 보임. 나무위키 임베딩데이터 외에는 실험하지 못했음.
 <br>
 <br>
 <b> 향후과제 </b><br>
 1. parameter 실험, 음소 아닌 음절단위로 학습.
 2. 480MB의 나무위키 데이터가 아닌 다른 데이터로 학습.
 3. 임시 검증방법 수정.
-
+<br>
 <b> Docker Image </b><br>
-<br> <a href="https://hub.docker.com/r/sngjuk/sukim_ph2/"> Character CNN docker image </a>
+<a href="https://hub.docker.com/r/sngjuk/sukim_ph2/"> Character CNN docker image </a>
