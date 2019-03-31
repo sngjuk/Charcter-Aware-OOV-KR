@@ -1,7 +1,6 @@
 <b>README</b> <br>
-실험결과 본 모델보다 Fasttext가 OOV에 대하여 더욱 강건하고 정확한 결과를 보입니다. <br>
-아래의 결과는 cherry picked 되었습니다. <br> <br>
-
+Fasttext 모델이 OOV에 대하여 더 강건하고 정확한 결과를 보입니다. <br>
+아래의 결과들은 cherry picked 되었기에 사용을 추천하지 않습니다. <br>
 
 Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabulary Vector 학습/추론<br> <a href="https://github.com/mkroutikov/tf-lstm-char-cnn"> mkroutikov </a> model에서 많은 부분을 가져옴.
 
