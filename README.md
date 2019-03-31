@@ -1,8 +1,9 @@
+
 <b>README</b> <br>
 1. Fasttext 모델이 OOV에 대하여 더 강건하고 정확한 결과를 보입니다. <br>
 2. 아래의 결과들은 cherry picked 되었기에 본 토이모델 사용을 추천하지 않습니다. <br>
-3. 사용된 나무위키데이터(220mb)는 한국어 학습에 유용할 수 있습니다. [google drive](https://drive.google.com/file/d/1--yfaeNHd_xpoJQxdNmTl16_QnhEm1Ma/view?usp=sharing) <br> 
-
+3. 사용한 전처리 된 나무위키데이터(220mb)는 한국어 학습에 유용할 수 있습니다. [google drive](https://drive.google.com/file/d/1--yfaeNHd_xpoJQxdNmTl16_QnhEm1Ma/view?usp=sharing) <br> 
+******************
 Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabulary Vector 학습/추론<br> <a href="https://github.com/mkroutikov/tf-lstm-char-cnn"> mkroutikov </a> model에서 많은 부분을 가져옴.
 
 <b> --Train Usage : </b>
