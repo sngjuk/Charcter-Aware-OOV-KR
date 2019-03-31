@@ -36,5 +36,3 @@ Character-Aware-Language model을 이용한 한국어 자소단위 Out of Vocabu
 2. 480MB의 나무위키 데이터가 아닌 다른 데이터로 학습.
 3. 임시 검증방법 수정.
 <br>
-<b> Docker Image </b><br>
-<a href="https://hub.docker.com/r/sngjuk/sukim_ph2/"> Character CNN docker image </a>
