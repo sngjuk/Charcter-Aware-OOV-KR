@@ -1,5 +1,5 @@
 <b>README</b> <br>
-실험결과 본 모델보다 Fasttext가 OOV에 대하여 더욱 강건하고 정확한 결과를 보임. <br>
+실험결과 본 모델보다 Fasttext가 OOV에 대하여 더욱 강건하고 정확한 결과를 보입니다. <br>
 아래의 결과는 cherry picked 되었습니다. <br> <br>
 
 
