@@ -1,7 +1,8 @@
 <b>README</b> <br>
 1. Fasttext 모델이 OOV에 대하여 더 강건하고 정확한 결과를 보입니다. <br>
 2. 아래의 결과들은 cherry picked 되었기에 본 토이모델 사용을 추천하지 않습니다. <br>
-3. 사용한 전처리 된 나무위키데이터(220mb)는 한국어 학습에 유용할 수 있습니다. [Gdrive](https://drive.google.com/file/d/1--yfaeNHd_xpoJQxdNmTl16_QnhEm1Ma/view?usp=sharing) <br> 
+3. 학습에 사용한 데이터: mecab 형태소분석으로 조사등이 제거된 줄바꿈이 없는 나무위키 텍스트 (449mb) [google drive](https://drive.google.com/open?id=1ZrksohZin9ndT_1Ynewh6PCT_dQEiTv2) <br>
+* 형태소 분석 없이 유의미한 문장들을 길이로 추려낸 줄바꿈 포함 나무위키 텍스트 (220mb) [google drive](https://drive.google.com/file/d/1--yfaeNHd_xpoJQxdNmTl16_QnhEm1Ma/view?usp=sharing) <br> 
 ******************
 <b>Model</b><br>
 임베딩으로부터 단어를 Input X, 벡터를 Output Y로 재학습시켜 자소단위로 OOV 추론이 가능한 모델을 구현과 실험. <br>
